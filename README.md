@@ -5,7 +5,7 @@ Pathway enrichment analysis is a widely used method for interpreting high-throug
 
 To overcome these limitations, we apply fuzzy set theory to enhance the functionality of ORA and GSEA. In fuzzy set theory, rather than classifying elements as strictly belonging to a set or not, each element receives a degree of membership between 0 and 1. This allows for a more nuanced representation of gene involvement in pathways. We show how to transform traditional pathway gene sets into fuzzy sets by calculating gene membership values based on multiple factors, including pathway overlap, topology, and functional association scores.
 
-Additionally, we address the limitation of ORA's reliance on a fixed significance threshold by converting the query set of differentially expressed genes into a fuzzy set. Membership values are derived from statistical measures such as p-values and fold changes, allowing for a more flexible and dynamic representation of gene sets. This fuzzy approach enables a more customized pathway analysis, enabling researchers to select membership functions tailored to their specific context.
+Additionally, we address the limitation of ORA's reliance on a fixed significance threshold by converting the query set of differentially expressed genes into a fuzzy set. We show how query set membership values can be derived from p-values and fold changes, allowing for a more flexible and dynamic representation of gene sets. This fuzzy approach enables a more customized pathway analysis, enabling researchers to select membership functions tailored to their specific context.
 
 ## Project Overview
 This repository provides a pipeline for performing fuzzy pathway analysis. It contains the following modules:
