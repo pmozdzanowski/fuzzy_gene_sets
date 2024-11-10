@@ -1,7 +1,7 @@
 # Improving on traditional gene set enrichment analysis methods using fuzzy set theory
 
 ## General Info
-Pathway enrichment analysis is a widely used method for interpreting high-throughput omics data by identifying biological pathways that are significantly associated with differences in gene expression between two conditions. Common techniques for pathway analysis include Over-Representation Analysis (ORA) and Gene Set Enrichment Analysis (GSEA). While effective, these methods have limitations, particularly in their failure to account for pathway topology, gene overlap, and the inherent incompleteness of pathway annotations.
+Pathway enrichment analysis is a widely used method for interpreting high-throughput omics data by identifying biological pathways that are significantly associated with differences in gene expression between two conditions. Common techniques for pathway analysis include Over-Representation Analysis (ORA) and Gene Set Enrichment Analysis (GSEA). Despite their popularity, these methods have limitations, particularly in their failure to account for pathway topology, gene overlap, and the inherent incompleteness of pathway annotations.
 
 To overcome these limitations, we apply fuzzy set theory to enhance the functionality of ORA and GSEA. In fuzzy set theory, rather than classifying elements as strictly belonging to a set or not, each element receives a degree of membership between 0 and 1. This allows for a more nuanced representation of gene involvement in pathways. We show how to transform traditional pathway gene sets into fuzzy sets by calculating gene membership values based on multiple factors, including pathway overlap, topology, and functional association scores.
 
