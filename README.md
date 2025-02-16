@@ -27,3 +27,7 @@ This repository provides a pipeline for performing fuzzy pathway analysis. It co
 
 6. **bias_under_null: Assessing Bias Under the Null Hypothesis**:
     - Code for assessing whether pathway enrichment methods are biased toward certain pathways by generating p-value distributions for randomly sampled query sets.
+  
+7. **decoupler_integration: ORA and GSEA Implementations for decoupler package**:
+    - Implementations of Over-Representation Analysis (ORA) and Gene Set Enrichment Analysis (GSEA) adapted for fuzzy sets compatible with all decoupler functions.
+
